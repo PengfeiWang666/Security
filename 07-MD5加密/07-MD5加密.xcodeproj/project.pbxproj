@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FFAC79B1C73813C004A9063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFAC79A1C73813C004A9063 /* main.m */; };
+		0FFAC79E1C73813D004A9063 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFAC79D1C73813C004A9063 /* AppDelegate.m */; };
+		0FFAC7A11C73813D004A9063 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFAC7A01C73813D004A9063 /* ViewController.m */; };
+		0FFAC7A41C73813D004A9063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFAC7A21C73813D004A9063 /* Main.storyboard */; };
+		0FFAC7A61C73813D004A9063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FFAC7A51C73813D004A9063 /* Assets.xcassets */; };
+		0FFAC7A91C73813D004A9063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFAC7A71C73813D004A9063 /* LaunchScreen.storyboard */; };
+		0FFAC7B31C73824B004A9063 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFAC7B21C73824B004A9063 /* NSString+Hash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FFAC7961C73813C004A9063 /* 07-MD5加密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07-MD5加密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FFAC79A1C73813C004A9063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FFAC79C1C73813C004A9063 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FFAC79D1C73813C004A9063 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FFAC79F1C73813D004A9063 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0FFAC7A01C73813D004A9063 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0FFAC7A31C73813D004A9063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FFAC7A51C73813D004A9063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FFAC7A81C73813D004A9063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FFAC7AA1C73813D004A9063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FFAC7B11C73824B004A9063 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		0FFAC7B21C73824B004A9063 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FFAC7931C73813C004A9063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FFAC78D1C73813C004A9063 = {
+			isa = PBXGroup;
+			children = (
+				0FFAC7981C73813C004A9063 /* 07-MD5加密 */,
+				0FFAC7971C73813C004A9063 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FFAC7971C73813C004A9063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FFAC7961C73813C004A9063 /* 07-MD5加密.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FFAC7981C73813C004A9063 /* 07-MD5加密 */ = {
+			isa = PBXGroup;
+			children = (
+				0FFAC7B01C73824B004A9063 /* Security */,
+				0FFAC79C1C73813C004A9063 /* AppDelegate.h */,
+				0FFAC79D1C73813C004A9063 /* AppDelegate.m */,
+				0FFAC79F1C73813D004A9063 /* ViewController.h */,
+				0FFAC7A01C73813D004A9063 /* ViewController.m */,
+				0FFAC7A21C73813D004A9063 /* Main.storyboard */,
+				0FFAC7A51C73813D004A9063 /* Assets.xcassets */,
+				0FFAC7A71C73813D004A9063 /* LaunchScreen.storyboard */,
+				0FFAC7AA1C73813D004A9063 /* Info.plist */,
+				0FFAC7991C73813C004A9063 /* Supporting Files */,
+			);
+			path = "07-MD5加密";
+			sourceTree = "<group>";
+		};
+		0FFAC7991C73813C004A9063 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FFAC79A1C73813C004A9063 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FFAC7B01C73824B004A9063 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				0FFAC7B11C73824B004A9063 /* NSString+Hash.h */,
+				0FFAC7B21C73824B004A9063 /* NSString+Hash.m */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FFAC7951C73813C004A9063 /* 07-MD5加密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FFAC7AD1C73813D004A9063 /* Build configuration list for PBXNativeTarget "07-MD5加密" */;
+			buildPhases = (
+				0FFAC7921C73813C004A9063 /* Sources */,
+				0FFAC7931C73813C004A9063 /* Frameworks */,
+				0FFAC7941C73813C004A9063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07-MD5加密";
+			productName = "07-MD5加密";
+			productReference = 0FFAC7961C73813C004A9063 /* 07-MD5加密.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FFAC78E1C73813C004A9063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王鹏飞";
+				TargetAttributes = {
+					0FFAC7951C73813C004A9063 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ST685X75RG;
+					};
+				};
+			};
+			buildConfigurationList = 0FFAC7911C73813C004A9063 /* Build configuration list for PBXProject "07-MD5加密" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FFAC78D1C73813C004A9063;
+			productRefGroup = 0FFAC7971C73813C004A9063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FFAC7951C73813C004A9063 /* 07-MD5加密 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FFAC7941C73813C004A9063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFAC7A91C73813D004A9063 /* LaunchScreen.storyboard in Resources */,
+				0FFAC7A61C73813D004A9063 /* Assets.xcassets in Resources */,
+				0FFAC7A41C73813D004A9063 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FFAC7921C73813C004A9063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFAC7A11C73813D004A9063 /* ViewController.m in Sources */,
+				0FFAC7B31C73824B004A9063 /* NSString+Hash.m in Sources */,
+				0FFAC79E1C73813D004A9063 /* AppDelegate.m in Sources */,
+				0FFAC79B1C73813C004A9063 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FFAC7A21C73813D004A9063 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FFAC7A31C73813D004A9063 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0FFAC7A71C73813D004A9063 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FFAC7A81C73813D004A9063 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FFAC7AB1C73813D004A9063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FFAC7AC1C73813D004A9063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FFAC7AE1C73813D004A9063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "07-MD5加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wpfConpany.-7-MD5--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0FFAC7AF1C73813D004A9063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "07-MD5加密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wpfConpany.-7-MD5--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FFAC7911C73813C004A9063 /* Build configuration list for PBXProject "07-MD5加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FFAC7AB1C73813D004A9063 /* Debug */,
+				0FFAC7AC1C73813D004A9063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FFAC7AD1C73813D004A9063 /* Build configuration list for PBXNativeTarget "07-MD5加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FFAC7AE1C73813D004A9063 /* Debug */,
+				0FFAC7AF1C73813D004A9063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FFAC78E1C73813C004A9063 /* Project object */;
+}
